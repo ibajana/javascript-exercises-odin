@@ -1,8 +1,16 @@
-const repeatString = function(prhase,numbeer) {
+const repeatString = function(word,num) {   
+    if (num<0){
+        return "ERROR"
+    }
+    else{
+        let str="" 
+    for (var i=0; i<num; i++){
+        str+=word        
+    }
+    return str
+    };
+    }
     
-    
-
-};
 
 // Do not edit below this line
 module.exports = repeatString;
